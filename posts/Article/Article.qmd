@@ -1,7 +1,7 @@
 ---
 title: "Rethinking Olympic Strategies"
 author: "Adhni Mulachela"
-date: "2024-10-04"
+#date: "2024-10-04"
 categories: [Article]
 ---
 

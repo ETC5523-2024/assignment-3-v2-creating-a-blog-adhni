@@ -1,8 +1,8 @@
 ---
 title: "AFL Grand Final"
 author: "Adhni Mulachela"
-date: "2024-10-03"
-categories: [Dumps]
+#date: "2024-10-03"
+categories: [Article]
 knitr:
   opts_chunk:
     echo: false

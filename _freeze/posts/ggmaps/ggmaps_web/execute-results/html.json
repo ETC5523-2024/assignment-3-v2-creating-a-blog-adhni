@@ -1,0 +1,15 @@
+{
+  "hash": "4852200c6d5284b0758eedebe7430233",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Public Transport Transit Time Analysis\"\nauthor: \"Adhni Mulachela\"\ndate: \"2025-10-10\"\ncategories: [Article]\nknitr:\n  opts_chunk:\n    echo: false\n    warning: false\n    messsage: false\n---\n\n\n# Introduction\n\nThis report showcases transit time analyses for various cities around the world. The visualizations highlight the travel times to key central locations (e.g., main train stations) from surrounding areas using public transit at 8:00AM on a workday. These analyses can provide insights into urban transit accessibility.\n\n# Methodology\n\nFor each city: - **Central Location**: The primary train station or transit hub was selected. - **Grid Points**: A grid of points around the central location was used to compute travel times. - **Google Distance Matrix API**: Travel times were calculated based on transit mode during morning peak hours. - **Visualization**: Heatmaps represent travel time categories: - **0-15 minutes**: Green - **15-30 minutes**: Yellow - **30-45 minutes**: Orange - **45+ minutes**: Red\n\nBelow are the results for each city.\n\n# Results\n\n## Sydney (SYD)\n\n![](pictures/SYD.jpeg)\n\n------------------------------------------------------------------------\n\n## Melbourne (MEL)\n\n![](pictures/MEL.jpeg)\n\n------------------------------------------------------------------------\n\n## Adelaide (ADL)\n\n![](pictures/ADL.jpeg)\n\n------------------------------------------------------------------------\n\n## Jakarta (JKT)\n\n![](pictures/JKT.jpeg)\n\n------------------------------------------------------------------------\n\n## New York City (NYC)\n\n![](pictures/NYC.jpeg)\n\n------------------------------------------------------------------------\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

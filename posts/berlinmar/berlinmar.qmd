@@ -1,7 +1,7 @@
 ---
 title: "Berlin Marathon 2019"
 author: "Adhni Mulachela"
-date: "2025-10-10"
+#date: "2025-10-10"
 categories: [Article]
 knitr:
   opts_chunk:
@@ -102,7 +102,7 @@ berlin_2019 %>%
     W_hhmm = seconds_to_hhmm(median_time_W),
     total_runners = runner_count_M + runner_count_W  # Total runners for scaling dot size
   ) %>%
-  filter(total_runners >= 20) %>%  # Filter countries with fewer than 10 runners
+  filter(total_runners >= 0) %>%  # Filter countries with fewer than 10 runners
   ggplot(aes(x = median_time_M, y = median_time_W, label = nationality, size = total_runners,
              text = paste0("<b>Country:</b> ", nationality,
                            "<br><b>Median Time (Men):</b> ", M_hhmm,
@@ -115,12 +115,12 @@ berlin_2019 %>%
   scale_x_continuous(
     labels = seconds_to_hhmm, 
     name = "Median Time for Men (HH:MM)",
-    limits = c(10800, 21600)  # Limit to 3 to 6 hours
+    limits = c(0, 21600)  # Limit to 3 to 6 hours
   ) +
   scale_y_continuous(
     labels = seconds_to_hhmm, 
     name = "Median Time for Women (HH:MM)",
-    limits = c(10800, 21600)  # Limit to 3 to 6 hours
+    limits = c(0, 21600)  # Limit to 3 to 6 hours
   ) +
   labs(
     title = "Comparison of Median Times: Men vs Women (atleast 20 runners)",

@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Adhni Mulachela">
+<meta name="dcterms.date" content="2025-10-10">
 
-<title>Adhni Mulachela - AFL Grand Final</title>
+<title>Adhni Mulachela - Public Transport Transit Time Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,15 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<link href="../../site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
-<script src="../../site_libs/datatables-binding-0.33/datatables.js"></script>
-<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<link href="../../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
-<link href="../../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
-<script src="../../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
-<link href="../../site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
-<script src="../../site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -133,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">AFL Grand Final</h1>
+      <h1 class="title">Public Transport Transit Time Analysis</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Article</div>
               </div>
@@ -150,6 +142,12 @@ ul.task-list li input[type="checkbox"] {
             </div>
     </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 10, 2025</p>
+      </div>
+    </div>
     
       
     </div>
@@ -166,51 +164,44 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="a-story-of-triumph-the-afl-grand-finals-20152024" class="level3">
-<h3 class="anchored" data-anchor-id="a-story-of-triumph-the-afl-grand-finals-20152024">A Story of Triumph: The AFL Grand Finals (2015–2024)</h3>
-<p>Once upon a time in the vibrant world of Australian Rules Football (AFL), a fierce rivalry unfolded over a decade, showcasing the dedication and spirit of teams that aimed for glory in the Grand Final. From 2015 to 2024, teams like the Brisbane Lions, Sydney Swans, and Richmond Tigers battled for the prestigious title, creating unforgettable moments that fans would cherish forever.</p>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>This report showcases transit time analyses for various cities around the world. The visualizations highlight the travel times to key central locations (e.g., main train stations) from surrounding areas using public transit at 8:00AM on a workday. These analyses can provide insights into urban transit accessibility.</p>
 </section>
-<section id="the-teams-and-their-journeys" class="level3">
-<h3 class="anchored" data-anchor-id="the-teams-and-their-journeys">The Teams and Their Journeys</h3>
-<p>In this tale, each year brought new champions and challenges. The Brisbane Lions roared into action, claiming victories with impressive scores, while the Sydney Swans showcased resilience, always ready to reclaim their spot in the limelight. The Collingwood Magpies and Geelong Cats also left their mark, fighting hard to secure their place in the hearts of fans.</p>
+<section id="methodology" class="level1">
+<h1>Methodology</h1>
+<p>For each city: - <strong>Central Location</strong>: The primary train station or transit hub was selected. - <strong>Grid Points</strong>: A grid of points around the central location was used to compute travel times. - <strong>Google Distance Matrix API</strong>: Travel times were calculated based on transit mode during morning peak hours. - <strong>Visualization</strong>: Heatmaps represent travel time categories: - <strong>0-15 minutes</strong>: Green - <strong>15-30 minutes</strong>: Yellow - <strong>30-45 minutes</strong>: Orange - <strong>45+ minutes</strong>: Red</p>
+<p>Below are the results for each city.</p>
 </section>
-<section id="scoreboard-chronicles" class="level3">
-<h3 class="anchored" data-anchor-id="scoreboard-chronicles">Scoreboard Chronicles</h3>
-<p>Each year from 2015 to 2024 was marked by thrilling matchups, where the scores told the story of triumph and heartbreak. The data revealed the highs and lows, with the winners proudly displaying their logos, signifying their hard-fought victories.</p>
+<section id="results" class="level1">
+<h1>Results</h1>
+<section id="sydney-syd" class="level2">
+<h2 class="anchored" data-anchor-id="sydney-syd">Sydney (SYD)</h2>
+<p><img src="pictures/SYD.jpeg" class="img-fluid"></p>
+<hr>
 </section>
-<section id="a-visual-representation-of-glory" class="level3">
-<h3 class="anchored" data-anchor-id="a-visual-representation-of-glory">A Visual Representation of Glory</h3>
-<p>To capture the essence of these battles, a stunning visualization was created. A scatter plot illustrated the fierce competition, showing the winners and losers side by side. Each logo represented a team’s journey, while translucent bars indicated the score differences, revealing the intensity of each matchup.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div id="fig-one" class="quarto-figure quarto-figure-center quarto-float anchored" width="672">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-one-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="AFL2_files/figure-html/fig-one-1.png" id="fig-one" class="img-fluid figure-img" width="672">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-one-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1
-</figcaption>
-</figure>
-</div>
-</div>
-</div>
+<section id="melbourne-mel" class="level2">
+<h2 class="anchored" data-anchor-id="melbourne-mel">Melbourne (MEL)</h2>
+<p><img src="pictures/MEL.jpeg" class="img-fluid"></p>
+<hr>
 </section>
-<section id="the-legacy-of-the-winners" class="level3">
-<h3 class="anchored" data-anchor-id="the-legacy-of-the-winners">The Legacy of the Winners</h3>
-<p>Finally, a table emerged, showcasing the champions of each year. This table celebrated their victories, with logos adding a visual flair, reminding fans of the memorable moments that unfolded on the field.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-62ee84ef5e0d0ddaf000" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-62ee84ef5e0d0ddaf000">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[2024,2023,2022,2021,2020,2019,2018,2017,2016,2015],["Brisbane_Lions","Collingwood_Magpies","Geelong_Cats","Melbourne_Demons","Richmond_Tigers","Richmond_Tigers","West_Coast_Eagles","Richmond_Tigers","Western_Bulldogs","Hawthorn_Hawks"],[120,90,133,140,81,114,79,108,89,107],["<img src=\"team_logos/Brisbane_Lions.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/Collingwood_Magpies.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/Geelong_Cats.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/Melbourne_Demons.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/Richmond_Tigers.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/Richmond_Tigers.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/West_Coast_Eagles.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/Richmond_Tigers.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/Western_Bulldogs.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/Hawthorn_Hawks.png\" style=\"width:40px;height:40px;\"/>"],["Sydney_Swans","Brisbane_Lions","Sydney_Swans","Western_Bulldogs","Geelong_Cats","Greater_Western_Sydney","Collingwood_Magpies","Adelaide_Crows","Sydney_Swans","West_Coast_Eagles"],[60,86,52,66,50,25,74,60,67,61],["<img src=\"team_logos/Sydney_Swans.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/Brisbane_Lions.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/Sydney_Swans.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/Western_Bulldogs.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/Geelong_Cats.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/GWS_Giants.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/Collingwood_Magpies.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/Adelaide_Crows.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/Sydney_Swans.png\" style=\"width:40px;height:40px;\"/>","<img src=\"team_logos/West_Coast_Eagles.png\" style=\"width:40px;height:40px;\"/>"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Year<\/th>\n      <th>Winner<\/th>\n      <th>Winner_Score<\/th>\n      <th>Winner_Logo<\/th>\n      <th>Loser<\/th>\n      <th>Loser_Score<\/th>\n      <th>Loser_Logo<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"autoWidth":true,"columnDefs":[{"targets":[3,4],"orderable":false},{"className":"dt-right","targets":[1,3,6]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Year","targets":1},{"name":"Winner","targets":2},{"name":"Winner_Score","targets":3},{"name":"Winner_Logo","targets":4},{"name":"Loser","targets":5},{"name":"Loser_Score","targets":6},{"name":"Loser_Logo","targets":7}],"order":[],"orderClasses":false,"rowCallback":"function(row, data, displayNum, displayIndex, dataIndex) {\nvar value=data[3]; $(this.api().cell(row, 3).node()).css({'background-color':'#f9f9f9'});\nvar value=data[4]; $(this.api().cell(row, 4).node()).css({'background-color':'#f9f9f9'});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
-</div>
-</div>
+<section id="adelaide-adl" class="level2">
+<h2 class="anchored" data-anchor-id="adelaide-adl">Adelaide (ADL)</h2>
+<p><img src="pictures/ADL.jpeg" class="img-fluid"></p>
+<hr>
 </section>
-<section id="conclusion" class="level3">
-<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
-<p>And so, the story of the AFL Grand Finals from 2015 to 2024 was etched in the memories of fans and players alike. Each score, each logo, and each game contributed to a rich tapestry of sporting history, celebrating the spirit of competition and the thrill of victory. As the years go by, these moments will continue to inspire future generations of players and fans in the exhilarating world of AFL.</p>
+<section id="jakarta-jkt" class="level2">
+<h2 class="anchored" data-anchor-id="jakarta-jkt">Jakarta (JKT)</h2>
+<p><img src="pictures/JKT.jpeg" class="img-fluid"></p>
+<hr>
+</section>
+<section id="new-york-city-nyc" class="level2">
+<h2 class="anchored" data-anchor-id="new-york-city-nyc">New York City (NYC)</h2>
+<p><img src="pictures/NYC.jpeg" class="img-fluid"></p>
+<hr>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

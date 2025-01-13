@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "Adhni Mulachela",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nnycflights13\n\n\n\n\n\n\nArticle\n\n\n\n\n\n\n\n\n\nOct 10, 2025\n\n\nAdhni Mulachela\n\n\n\n\n\n\n\n\n\n\n\n\nBerlin Marathon 2019\n\n\n\n\n\n\nArticle\n\n\n\n\n\n\n\n\n\nOct 10, 2025\n\n\nAdhni Mulachela\n\n\n\n\n\n\n\n\n\n\n\n\nRethinking Olympic Strategies\n\n\n\n\n\n\nArticle\n\n\n\n\n\n\n\n\n\nOct 4, 2024\n\n\nAdhni Mulachela\n\n\n\n\n\n\n\n\n\n\n\n\nAFL Grand Final\n\n\n\n\n\n\nDumps\n\n\n\n\n\n\n\n\n\nOct 3, 2024\n\n\nAdhni Mulachela\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nAFL Grand Final\n\n\n\n\n\n\nArticle\n\n\n\n\n\n\n\n\n\nAdhni Mulachela\n\n\n\n\n\n\n\n\n\n\n\n\nnycflights13\n\n\n\n\n\n\nArticle\n\n\n\n\n\n\n\n\n\nAdhni Mulachela\n\n\n\n\n\n\n\n\n\n\n\n\nBerlin Marathon 2019\n\n\n\n\n\n\nArticle\n\n\n\n\n\n\n\n\n\nAdhni Mulachela\n\n\n\n\n\n\n\n\n\n\n\n\nRethinking Olympic Strategies\n\n\n\n\n\n\nArticle\n\n\n\n\n\n\n\n\n\nAdhni Mulachela\n\n\n\n\n\n\n\n\n\n\n\n\nPublic Transport Transit Time Analysis\n\n\n\n\n\n\nArticle\n\n\n\n\n\n\n\n\n\nOct 10, 2025\n\n\nAdhni Mulachela\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/afl/AFL2.html",
@@ -89,5 +89,47 @@
     "title": "Berlin Marathon 2019",
     "section": "",
     "text": "Using the nycflights13 dataset, this analysis examines flight patterns from New York’s three major airports: JFK, LGA, and EWR. Visualizations include pie charts showing airline proportions, line charts of flights by hour, and interactive maps of routes, providing insights into departure trends and airline operations.\n\n\nRows: 43936 Columns: 18\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr   (6): first_name, last_name, nationality, club, gender, Race\ndbl   (2): place_overall, year\ntime (10): time_full, split_5k, split_10k, split_15k, split_20k, time_half, ...\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message."
+  },
+  {
+    "objectID": "posts/ggmaps/ggmaps_web.html",
+    "href": "posts/ggmaps/ggmaps_web.html",
+    "title": "Public Transport Transit Time Analysis",
+    "section": "",
+    "text": "This report showcases transit time analyses for various cities around the world. The visualizations highlight the travel times to key central locations (e.g., main train stations) from surrounding areas using public transit at 8:00AM on a workday. These analyses can provide insights into urban transit accessibility."
+  },
+  {
+    "objectID": "posts/ggmaps/ggmaps_web.html#sydney-syd",
+    "href": "posts/ggmaps/ggmaps_web.html#sydney-syd",
+    "title": "Public Transport Transit Time Analysis",
+    "section": "Sydney (SYD)",
+    "text": "Sydney (SYD)"
+  },
+  {
+    "objectID": "posts/ggmaps/ggmaps_web.html#melbourne-mel",
+    "href": "posts/ggmaps/ggmaps_web.html#melbourne-mel",
+    "title": "Public Transport Transit Time Analysis",
+    "section": "Melbourne (MEL)",
+    "text": "Melbourne (MEL)"
+  },
+  {
+    "objectID": "posts/ggmaps/ggmaps_web.html#adelaide-adl",
+    "href": "posts/ggmaps/ggmaps_web.html#adelaide-adl",
+    "title": "Public Transport Transit Time Analysis",
+    "section": "Adelaide (ADL)",
+    "text": "Adelaide (ADL)"
+  },
+  {
+    "objectID": "posts/ggmaps/ggmaps_web.html#jakarta-jkt",
+    "href": "posts/ggmaps/ggmaps_web.html#jakarta-jkt",
+    "title": "Public Transport Transit Time Analysis",
+    "section": "Jakarta (JKT)",
+    "text": "Jakarta (JKT)"
+  },
+  {
+    "objectID": "posts/ggmaps/ggmaps_web.html#new-york-city-nyc",
+    "href": "posts/ggmaps/ggmaps_web.html#new-york-city-nyc",
+    "title": "Public Transport Transit Time Analysis",
+    "section": "New York City (NYC)",
+    "text": "New York City (NYC)"
   }
 ]
